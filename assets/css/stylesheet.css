@@ -53,6 +53,7 @@ table {
 /* common styling */
 a{
     text-decoration: none;
+    color: inherit;
 }
 img{
     width: 100%;
@@ -65,3 +66,24 @@ body{
 h2, h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* start of nav section */
+header{
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+}
+li{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    line-height: 1.5;
+    margin-left: 4px;
+}
+/* end of nav section */
