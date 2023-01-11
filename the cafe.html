@@ -10,76 +10,84 @@
 <body>
     <header>
         <nav>
-            <ul id="navigation-bar">
-                <li><a href="banner" title="Home">Home</a></li>
-                <li><a href="about" title="About">About</a></li>
-                <li><a href="menu" title="Menu">Menu</a></li>
-                <li><a href="where-to-find-us" title="Where">Where</a></li>
+            <ul id="navigation-bar" class="topnav">
+                <li><a href="#banner" title="Home">Home</a></li>
+                <li><a href="#about" title="About">About</a></li>
+                <li><a href="#menu" title="Menu">Menu</a></li>
+                <li><a href="#where-to-find-us" title="Where">Where</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="banner">
+        <section id="banner" class="banner">
             <figure id="image"><img src="./assets/image/coffeehouse.jpg" alt="bakery-image"></figure>
             <!-- use br tag instead of another h1  -->
-                <h1>The<br>Cafe</h1>
+            <h1>The<br>Cafe</h1>
             <div>
                 <p>Open from 6am to 5pm</p>
                 <p>15 Adr street, 5015</p>
             </div>
         </section>
-        <section id="about">
-            <wrapper>
+        <section id="about" class="details">
+            <div class="wrapper">
                 <div>
                     <h2>ABOUT THE CAFE</h2>
                 </div>
                 <div>
-                    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
-                    <blockquote>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</blockquote>
+                    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and
+                        lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+                    <blockquote>"Use products from nature for what it's worth - but never too early, nor too late."
+                        Fresh is the new sweet.</blockquote>
                     <p>Chef, Coffeeist and Owner:<cite>Liam Brown</cite></p>
                 </div>
                 <div>
                     <figure><img src="./assets/image/coffeeshop.jpg" alt="cafe"></figure>
-                    <div>
+                    <div class="timing">
                         <p><span>Opening hours:</span>everyday from 6am to 5pm.</p>
                         <p><span>Address:</span>15 Adr street, 5015, NY</p>
                     </div>
                 </div>
-            </wrapper>
+            </div>
         </section>
-        <section id="menu">
-            <wrapper>
+        <section id="menu" class="menu_items">
+            <div class="wrapper">
                 <div id="menu-card">
                     <div>
                         <h2>THE MENU</h2>
                     </div>
-                    <div>
-                        <a href="#"><div>Eat</div></a>
-                        <a href="#"><div>Drink</div></a>
+                    <div class="toggle">
+                        <a href="#">
+                            <div>Eat</div>
+                        </a>
+                        <a href="#">
+                            <div>Drink</div>
+                        </a>
                     </div>
-                    <div id="menu-eat">
-                    <div>
-                        <h3>Bread Basket</h3>
-                        <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
-                    </div>
-                    <div>
-                        <h3>Honey Almond Granola with Fruits</h3>
-                        <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
-                    </div>
-                    <div>
-                        <h3>Belgian Waffle</h3>
-                        <p>Vanilla flavored batter with malted flour 7.50</p>
-                    </div>
-                    <div>
-                        <h3>Scrambled eggs</h3>
-                        <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
-                    </div>
-                    <div>
-                        <h3>Blueberry Pancakes</h3>
-                        <p>With syrup, butter and lots of berries 8.50</p>
-                    </div>
-                    <!-- <div id="menu-drink">
+                    <div id="menu-eat" class="eat">
+                        <div>
+                            <h3>Bread Basket</h3>
+                            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                        </div>
+                        <div>
+                            <h3>Honey Almond Granola with Fruits</h3>
+                            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                        </div>
+                        <div>
+                            <h3>Belgian Waffle</h3>
+                            <p>Vanilla flavored batter with malted flour 7.50</p>
+                        </div>
+                        <div>
+                            <h3>Scrambled eggs</h3>
+                            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                        </div>
+                        <div>
+                            <h3>Blueberry Pancakes</h3>
+                            <p>With syrup, butter and lots of berries 8.50</p>
+                        </div>
+                        <!-- <div id="menu-drink">
                         <div>
                             <h3>Coffee</h3>
                             <p>Regular coffee 2.50</p>
@@ -93,37 +101,40 @@
                             <p>Whiskey and coffee 5.00</p>
                         </div>
                     </div> -->
+                    </div>
+                    <figure id="cup-image"><img src="./assets/image/coffeehouse2.jpg" alt="coffee-image"></figure>
                 </div>
-                <figure id="cup-image"><img src="./assets/image/coffeehouse2.jpg" alt="coffee-image"></figure>
-            </wrapper>
+            </div>
         </section>
-        <section id="where-to-find-us">
-            <wrapper>
+        <section id="where-to-find-us" class="contact">
+            <div class="wrapper">
                 <div>
                     <h4><span>WHERE TO FIND US</span></h4>
                     <p>Find us at some address at some place.</p>
                     <figure><img src="./assets/image/map.jpg" alt="street-map"></figure>
-                    <p><span>FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                    <p><span>FYI!</span> We offer full-service catering for any event, large or small. We understand
+                        your needs and we will cater the food to satisfy the biggerst criteria of them all, both look
+                        and taste.</p>
                     <p><span>Reserve</span> a table, ask for today's special or just send us a message:</p>
                 </div>
-                    <form>
+                <form>
                     <div>
-                    <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Name">
                     </div>
                     <div>
-                    <input type="number" id="mynumber" placeholder="How many people">
+                        <input type="number" id="mynumber" placeholder="How many people">
                     </div>
                     <div>
-                    <input type="date" id="mydate">
+                        <input type="date" id="mydate">
                     </div>
                     <div>
-                    <input type="text" placeholder="Message/Special Requirement">
+                        <input type="text" placeholder="Message/Special Requirement">
                     </div>
                     <div>
-                    <input type="button" value="SEND MESSAGE">
+                        <input type="button" value="SEND MESSAGE">
                     </div>
                 </form>
-            </wrapper>
+            </div>
         </section>
         <footer>
             <p>Powered by<a href="https://www.w3schools.com/w3css/default.asp" target="_blank"> w3.css</a></p>
