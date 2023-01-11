@@ -47,6 +47,21 @@ table {
 	border-spacing: 0;
 }
 @font-face{
-    font-family: 'inconsolata';
+    font-family: 'Inconsolata';
     src: url('../vendor/webfonts/Inconsolata-Regular.ttf') format('truetype');
+}
+/* common styling */
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.5;
+}
+h2, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
