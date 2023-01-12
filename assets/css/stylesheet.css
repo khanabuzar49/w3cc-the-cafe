@@ -66,6 +66,16 @@ body{
 h2, h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h2 span{
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 4px;
+}
+h2{
+    padding: 64px 251px;
+    margin: 10px 0;
+}
 /* start of nav section */
 header{
     padding: 8px 16px;
@@ -74,6 +84,7 @@ header{
     position: fixed;
     right: 0;
     left: 0;
+    z-index: 2;
 }
 ul{
     display: flex;
@@ -87,3 +98,48 @@ li{
     margin-left: 4px;
 }
 /* end of nav section */
+/* start of banner section */
+.bannerimg{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../image/coffeehouse.jpg);
+    height: 554px;
+    filter: grayscale(50%);
+}
+h1{
+    position: absolute;
+    top: 25%;
+    right: 44%;
+    text-align: center;
+    font-size: 90px;
+    color: #FFF;
+    margin-top: 4px;
+}
+.banner div{
+    display: flex;
+    /* padding: 12px 24px;
+    font-size: 15px; */
+    /* position: absolute; */
+    /* bottom: 1%; */
+}
+.banner p{
+    /* display: inline-block;
+    position: absolute; */
+    /* top: 67%; */
+}
+.banner p:last-child{
+    /* position: absolute;
+    top: 67%;
+    right: 0; */
+}
+/* end of banner section */
+/* start of details section */
+.details{
+    width: 46%;
+    margin: auto;
+}
+.details p, blockquote{
+    font-size: 18px;
+    padding: 8px 0;
+}
+/* end of details section */
