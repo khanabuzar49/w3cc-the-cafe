@@ -62,8 +62,7 @@ img{
 body{
     font-family: 'Inconsolata', monospace;
     line-height: 1.5;
-    /* background-color: #fdf5e6;
-    filter: grayscale(75%); */
+    background-color: #f7f5f1;
 }
 h2, h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -150,3 +149,41 @@ figure img{
     font-weight: bold;
 }
 /* end of details section */
+/* start of menu section */
+.menu_items{
+    width: 46%;
+    margin: auto;
+}
+.toggle{
+    padding: 8px 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.toggle, .eat{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.eat h3{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.eat p{
+    margin: 18px 0px;
+    color: #757575;
+    font-size: 18px;
+}
+.toggle a:first-child{
+    color: #fff;
+    background-color: #616161;
+}
+.toggle div{
+    padding: 0px 150px;
+}
+.eat{
+    padding: 6px 16px 50px;
+}
+.eat div {
+    margin-top: 52px;
+  }
+/* end of menu section */
