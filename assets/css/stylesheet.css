@@ -238,3 +238,16 @@ form div{
     padding-bottom: 18px;
 }
 /* end of form section */
+/* start of footer section */
+footer{
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 48px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+footer a{
+    text-decoration: underline;
+}
+/* end of footer section */
+
