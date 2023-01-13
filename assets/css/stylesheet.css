@@ -75,7 +75,6 @@ h2 span{
     padding: 1px 8px;
 }
 h2{
-    padding: 64px 243px;
     margin: 10px 0;
 }
 /* start of nav section */
@@ -129,6 +128,10 @@ h1{
     width: 46%;
     margin: auto;
 }
+.details h2{
+    padding: 64px 0px;
+    text-align: center;
+}
 .details p, blockquote{
     font-size: 18px;
     padding: 8px 0;
@@ -153,6 +156,10 @@ figure img{
 .menu_items{
     width: 46%;
     margin: auto;
+}
+.menu_items h2 {
+    padding: 64px 0px;
+    text-align: center;
 }
 .toggle{
     padding: 8px 16px;
@@ -187,3 +194,28 @@ figure img{
     margin-top: 52px;
   }
 /* end of menu section */
+/* start of address section */
+.contact{
+    width: 46%;
+    margin: auto;
+}
+.contact h2{
+    padding: 64px 0px;
+    text-align: center;
+}
+.contact p{
+    margin: 18px 0;
+    font-size: 18px;
+}.contact p span{
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+}
+.reserve{
+    background-color: #f7f5f1 !important;
+    color: #000 !important;
+    font-weight: bold;
+    padding: 0 !important;
+}
+/* end of address section */
+
